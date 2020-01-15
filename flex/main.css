@@ -1,0 +1,44 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: blanchedalmond;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.parent {
+    height: 80%;
+    width: 80%;
+    background-color: lightpink;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.parent > div {
+   
+    width: 100px;
+    height: 100px;
+    background-color: green;
+
+}
+
+.parent > .child1{
+    background-color: red;
+    flex: 3;
+}
+
+.parent > .child2 {
+    background-color: lightblue;
+    flex: 2;
+}
+
+.parent > .child3 {
+    background-color: fuchsia;
+}
+
+.parent > .child4 {
+    flex: 1;
+}
